@@ -1,0 +1,26 @@
+.section-internal{
+    display: flex;
+}
+
+.service-title{
+    display:block;
+}
+.service-step{
+    padding:50px;
+}
+
+.service-step .header-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 0px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-step h1{
+    color: white;
+    letter-spacing: 0em;
+    font-size:100px;
+}

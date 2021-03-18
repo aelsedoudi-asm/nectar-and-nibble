@@ -2,7 +2,7 @@ const config = {
   siteTitle: "Nectar & Nibble", // Site title.
   siteTitleShort: "Nectar & Nibble", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Nectar & Nibble - A subscription box for dieticians", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/logos/nn-logo-peach.png", // Logo used for SEO and manifest.
   siteUrl: "https://nectarandnibble.gatsbyjs.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Nectar & Nibble - A subscription box for dieticians. Sign up today to get recommendations sent straight to your door!", // Website description used for RSS feeds/meta description tag.
@@ -14,13 +14,34 @@ const config = {
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page.
+  siteLinks: [
+    {
+      label: "Home",
+      url: "/",
+      iconClassName: "fa fa-github",
+    },
+    {
+      label: "About",
+      url: "/about",
+      iconClassName: "fa fa-twitter",
+    },
+    {
+      label: "Join Now",
+      url: "/join-now",
+      iconClassName: "fa fa-envelope",
+    },
+    {
+      label: "Interest",
+      url: "/interest",
+      iconClassName: "fa fa-envelope",
+    },
+  ],
   userName: "Advanced User", // Username to display in the author segment.
   userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
-  userDescription:
-    "This would be a users descrpition", // User description to display in the author segment.
+  userDescription: "This would be a users descrpition", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {

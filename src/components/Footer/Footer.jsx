@@ -11,7 +11,7 @@ function Footer({ config }) {
   }
   return (
     <footer className="footer">
-      <UserLinks config={config} labeled />
+      {/* <UserLinks config={config} labeled />
       <div className="notice-container">
         <h4>{copyright}</h4>
 
@@ -20,12 +20,12 @@ function Footer({ config }) {
         </Link>
         <h4>
           Based on{" "}
-          <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+          <a href="https://github.com/aelsedoudi-asm/nectar-and-nibble">
+            FFC Starter
           </a>
           .
         </h4>
-      </div>
+      </div> */}
     </footer>
   );
 }
