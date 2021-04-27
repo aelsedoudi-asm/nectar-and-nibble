@@ -32,7 +32,7 @@ function Section(props) {
           padding: padding,
         }}
       >
-        <Image src={imageSrc} alt={imageAlt} />
+        <Image src= {imageSrc} alt={imageAlt} />
         <h2 class="section-title">{title}</h2>
         <p class="section-description">{description}</p>
         <div class="section-internal">{children}</div>
