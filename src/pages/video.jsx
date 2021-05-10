@@ -13,11 +13,9 @@ function VideoPage() {
     <Layout>
       <div className="video-container">
         <Helmet title={`${config.siteTitle}`} />
-        <SectionContainer name="service-section" width="boxed">
+        <SectionContainer name="interactive-video" width="boxed">
 
-          <InteractiveVideo
-            
-          />
+          <InteractiveVideo/>
 
         </SectionContainer>
 
