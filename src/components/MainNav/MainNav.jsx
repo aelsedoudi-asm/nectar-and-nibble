@@ -27,7 +27,7 @@ function MainNav({ config }) {
     <AppBar className="main-nav" position="static">
       <Toolbar className="toolbar">
         <div class="menu-left"><Image width="240" src={config.siteLogo} /></div>
-        <div class="menu-right"><Button size="medium" variant="contained" color="secondary" href="https://www.huckleberrysnaturalmarket.com/locations" link="https://www.huckleberrysnaturalmarket.com/locations">Visit Huckleberry’s Natural Market</Button></div>
+        <div class="menu-right"><Button size="medium" variant="contained" color="secondary" href="https://www.huckleberrysnaturalmarket.com/locations" link="https://www.huckleberrysnaturalmarket.com/locations" target="_blank">Visit Huckleberry’s Natural Market</Button></div>
       </Toolbar>
     </AppBar>
   );

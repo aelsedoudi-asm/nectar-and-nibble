@@ -11,11 +11,13 @@ function HomePage() {
   return (
     <Layout>
       <div className="home-container">
-        <Helmet title={`${config.siteTitle}`} />
+        <Helmet title={`${config.siteTitle}`} >
+          <script src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script>
+        </Helmet>
         <SectionContainer 
           name="header-banner" 
           width="full" 
-          height="450px" 
+          height="400px" 
           padding="0" 
           backgroundImage="/static/img/header-banner-full.jpg"
         />   
@@ -23,9 +25,10 @@ function HomePage() {
           <Section
           name="campaign-badge-section"
           hasImage="true"
-          imageSrc="/static/img/8406-HNM-Campaign-Badge.png"
+          imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
           width="100"
-          ></Section>
+          >
+          </Section>
         </SectionContainer>
 
         <SectionContainer name="more-info-section" width="boxed" padding="25">
@@ -34,7 +37,9 @@ function HomePage() {
             imageSrc="/static/img/CoolerTitle.png"
             width="49"
             padding="25px"
-          ></Section>
+          >
+          <div id="activeCampaign-form" class="_form_8"></div>
+          </Section>
           <Section
             hasImage="true"
             imageSrc="/static/img/YETI-hero-shot.png"
@@ -65,40 +70,55 @@ function HomePage() {
           <Section
             hasImage="true"
             imageSrc="/static/img/bottlingCoLogo-2.png"
+            isLink="true"
+            linkSrc="https://www.cforce.com/"
+            linkTarget="_blank"
             width="19"
             padding="25px"
           ></Section>
           <Section
             hasImage="true"
             imageSrc="/static/img/MCT-Logo.png"
+            isLink="true"
+            linkSrc="https://nuskoolsnacks.com/"
+            linkTarget="_blank"
             width="19"
             padding="25px"
           ></Section>
           <Section
             hasImage="true"
             imageSrc="/static/img/KiTu_Super-Coffee-Logo_K-1.png"
+            isLink="true"
+            linkSrc="https://drinksupercoffee.com/"
+            linkTarget="_blank"
             width="19"
             padding="25px"
           ></Section>
           <Section
             hasImage="true"
             imageSrc="/static/img/NOKA-Logo.png"
+            isLink="true"
+            linkSrc="https://www.nokaorganics.com/"
+            linkTarget="_blank"
             width="19"
             padding="25px"
           ></Section>
           <Section
             hasImage="true"
             imageSrc="/static/img/Mush-logo-black.png"
+            isLink="true"
+            linkSrc="https://eatmush.com/"
+            linkTarget="_blank"
             width="19"
             padding="25px"
           ></Section>
         </SectionContainer>
 
-        <SectionContainer name="terms-section" width="boxed">
+        <SectionContainer name="terms-section" width="boxed" padding="0">
           <Section
             description="To enter, you must be over the age of 18, and limit of five entries per person. Upon entering this promotion, you agree to the official rules. To be eligible for entry you acknowledge this promotion is in no way sponsored, endorsed or administered by, or associated with, YETI, Facebook, or Instagram. Winner will be announced on or after June 29th, 2021. To qualify for additional entries, share this link and tag three people who also meet eligibility requirements. By entering the contest, you agree to sign up for Huckleberry’s Natural Market E-blast."
             width="100"
-            padding="25px"
+            padding="50px"
             margin="0px auto"
           ></Section>
         </SectionContainer>

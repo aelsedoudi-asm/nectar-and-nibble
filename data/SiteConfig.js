@@ -60,7 +60,7 @@ const config = {
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2021 Huckleberry's Natural Market", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   primaryColor: "#442f4c",
   secondaryColor: "#a56427",
