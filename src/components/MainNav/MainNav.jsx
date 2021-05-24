@@ -18,12 +18,15 @@ import Button from '@material-ui/core/Button'
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+// This snippet will let you use site links to display the menu
+//<div class="menu-right"><SiteLinks config={config} labeled /></div>
+
 function MainNav({ config }) {
   return (
     <AppBar className="main-nav" position="static">
       <Toolbar className="toolbar">
         <div class="menu-left"><img width="170" src={config.siteLogo} /> </div>
-        <div class="menu-right"><SiteLinks config={config} labeled /></div>
+        <div class="menu-right"></div>
       </Toolbar>
     </AppBar>
   );

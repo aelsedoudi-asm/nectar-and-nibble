@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import ServiceStepBubbles from "../components/ServiceStepsBubbles/ServiceStepBubbles";
 import Section from "../components/Section/Section";
 import SectionContainer from "../components/SectionContainer/SectionContainer";
-import Spacer from "../components/Spacer/Spacer";
+import Button from "../components/Button/Button";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
 
@@ -18,8 +18,7 @@ function HomePage() {
           height="450px" 
           padding="0" 
           backgroundImage="/static/img/header-banner-full.jpg"
-        />
-       
+        />   
         <SectionContainer width="boxed" padding="0">
           <Section
           name="campaign-badge-section"
