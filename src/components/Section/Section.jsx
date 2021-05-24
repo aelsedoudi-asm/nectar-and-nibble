@@ -17,6 +17,7 @@ function Section(props) {
     hasImage,
     imageSrc,
     imageAlt,
+    imageSize,
   } = props;
 
   //Prints HTML with an image if one is available
@@ -34,7 +35,7 @@ function Section(props) {
           padding: padding,
         }}
       >
-        <Image src= {imageSrc} alt={imageAlt} />
+        <Image src= {imageSrc} alt={imageAlt} imageSize={imageSize}/>
         <h2 class="section-title">{title}</h2>
         <p class="section-description">{description}</p>
         <div class="section-internal">{children}</div>

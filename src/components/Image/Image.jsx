@@ -4,7 +4,7 @@ import "./Image.css";
 
 //image component for potential more image manipulation
 function Image(props) {
-  const { src, alt } = props;
+  const { src, alt, width, height } = props;
 
   //Site-wide section margin
   const defaultMargin = "150";
@@ -19,7 +19,7 @@ function Image(props) {
 
   return (
       <div class="image container" style={{}}>
-        <img src={src} alt={alt}></img>
+        <img width={width} height={height} src={src} alt={alt}></img>
       </div>
     );
 }

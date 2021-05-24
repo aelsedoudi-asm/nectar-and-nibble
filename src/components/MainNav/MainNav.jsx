@@ -1,5 +1,6 @@
 import React from "react";
 import SiteLinks from "../SiteLinks/SiteLinks";
+import Image from "../Image/Image"
 import "./MainNav.css";
 
 // nodejs library that concatenates classes
@@ -25,8 +26,8 @@ function MainNav({ config }) {
   return (
     <AppBar className="main-nav" position="static">
       <Toolbar className="toolbar">
-        <div class="menu-left"><img width="170" src={config.siteLogo} /> </div>
-        <div class="menu-right"></div>
+        <div class="menu-left"><Image width="240" src={config.siteLogo} /></div>
+        <div class="menu-right"><Button size="medium" variant="contained" color="secondary" href="https://www.huckleberrysnaturalmarket.com/locations" link="https://www.huckleberrysnaturalmarket.com/locations">Visit Huckleberry’s Natural Market</Button></div>
       </Toolbar>
     </AppBar>
   );
