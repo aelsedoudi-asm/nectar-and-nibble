@@ -1,13 +1,13 @@
 const config = {
-  siteTitle: "Nectar & Nibble", // Site title.
-  siteTitleShort: "Nectar & Nibble", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Nectar & Nibble - A subscription box for dieticians", // Alternative site title for SEO.
-  siteLogo: "/logos/nn-logo-peach.png", // Logo used for SEO and manifest.
+  siteTitle: "Huckleberry's Natural Market", // Site title.
+  siteTitleShort: "Huckleberry's Natural Market", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Huckleberry's Natural Market - Keeping it local since 1996", // Alternative site title for SEO.
+  siteLogo: "/logos/HuckleberryLogo.png", // Logo used for SEO and manifest.
   siteUrl: "https://nectarandnibble.gatsbyjs.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Nectar & Nibble - A subscription box for dieticians. Sign up today to get recommendations sent straight to your door!", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Huckleberry's Natural Market - We envisioned customers being able to shop fully at our store picking from organic produce, seafood, meats, dairy products, pre-packaged foods, to health, beauty and wellness items that are also clean, animal cruelty free, and sustainably sourced.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Nectar & Nibble RSS feed", // Title of the RSS feed
+  siteRssTitle: "Huckleberry's Natural Market RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "G-MT926N6DEZ", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
@@ -62,6 +62,8 @@ const config = {
   ],
   copyright: "Copyright © 2020. Advanced User", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
+  primaryColor: "#442f4c",
+  secondaryColor: "#ee7549",
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
 };
 

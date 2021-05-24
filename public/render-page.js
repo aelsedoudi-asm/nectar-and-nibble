@@ -2010,9 +2010,9 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "Nectar & Nibble",
-    "short_name": "Nectar & Nibble",
-    "description": "Nectar & Nibble - A subscription box for dieticians. Sign up today to get recommendations sent straight to your door!",
+    "name": "Huckleberry's Natural Market",
+    "short_name": "Huckleberry's Natural Market",
+    "description": "Huckleberry's Natural Market - We envisioned customers being able to shop fully at our store picking from organic produce, seafood, meats, dairy products, pre-packaged foods, to health, beauty and wellness items that are also clean, animal cruelty free, and sustainably sourced.",
     "start_url": "/",
     "background_color": "#e0e0e0",
     "theme_color": "#c62828",
@@ -2048,7 +2048,7 @@ var plugins = [{
     "feeds": [{
       "query": "\n            {\n              allMarkdownRemark(\n                limit: 1000,\n                sort: { order: DESC, fields: [frontmatter___date] },\n              ) {\n                edges {\n                  node {\n                    excerpt\n                    html\n                    timeToRead\n                    fields {\n                      slug\n                      date\n                    }\n                    frontmatter {\n                      title\n                      cover\n                      date\n                      category\n                      tags\n                    }\n                  }\n                }\n              }\n            }\n          ",
       "output": "/rss.xml",
-      "title": "Nectar & Nibble RSS feed"
+      "title": "Huckleberry's Natural Market RSS feed"
     }]
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:

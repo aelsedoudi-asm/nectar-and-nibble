@@ -20,7 +20,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 function MainNav({ config }) {
   return (
-    <AppBar className="main-nav" color="white" position="static">
+    <AppBar className="main-nav" position="static">
       <Toolbar className="toolbar">
         <div class="menu-left"><img width="170" src={config.siteLogo} /> </div>
         <div class="menu-right"><SiteLinks config={config} labeled /></div>

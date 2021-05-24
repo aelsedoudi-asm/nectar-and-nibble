@@ -6,6 +6,7 @@ import "./Section.css";
 function Section(props) {
   const {
     children,
+    name,
     title,
     description,
     width,
@@ -18,10 +19,11 @@ function Section(props) {
     imageAlt,
   } = props;
 
+  //Prints HTML with an image if one is available
   if (hasImage) {
     return (
       <div
-        class="section"
+      class={ ["section", name].join(' ')}
         style={{
           width: width + "%",
           marginTop: yMargins,
@@ -41,7 +43,7 @@ function Section(props) {
   } else {
     return (
       <div
-        class="section"
+        class={ ["section", name].join(' ')}
         style={{
           width: width + "%",
           marginTop: yMargins,

@@ -1,3 +1,20 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../../public/static/fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../../public/static/fonts/LibreBaskerville-Bold.ttf);
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../../public/static/fonts/LibreBaskerville-Italic.ttf);
+  font-style:italic;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +28,7 @@ body {
   padding: 0;
   min-height: 100%;
   min-width: 100%;
-  font-family: Source Sans Pro;
+  font-family: LibreBaskerville, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -19,6 +36,7 @@ body {
   line-height: 1.8em;
   text-transform: none;
   color: #707070;
+  background-color:#e8e3d6;
 }
 
 #___gatsby #gatsby-focus-wrapper {
@@ -32,7 +50,6 @@ body {
 }
 
 h1{
-  font-family: niveau-grotesk,sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 80px;
@@ -42,7 +59,6 @@ h1{
 }
 
 h2{
-  font-family: niveau-grotesk,sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 39px;
@@ -60,4 +76,12 @@ h5{
   font-size: 21px;
   text-align: center;
   letter-spacing: 4px;
+}
+
+.campaign-badge-section {
+  margin-top: -250px;
+}
+
+.terms-section{
+  font-size:14px;
 }

@@ -12,57 +12,98 @@ function HomePage() {
     <Layout>
       <div className="home-container">
         <Helmet title={`${config.siteTitle}`} />
-        <SectionContainer name="service-section" width="boxed">
-          <Section title="How it Works" class="how-it-works" width="100">
-            <ServiceStepBubbles
-              number="1"
-              title="JOIN OUR NETWORK"
-              description="Get started by completing our brief online questionnaire for retail dietitians to see if you qualify. "
-              color="#657cbd"
-            />
-            <ServiceStepBubbles
-              number="2"
-              title="RECEIVE A QUARTERLY BOX"
-              description="Each quarter, we’ll ship a new box of better-for-you products to try for free. We even cover shipping."
-              color="#ffdb70"
-            />
-            <ServiceStepBubbles
-              number="3"
-              title="EVALUATE THE PRODUCTS"
-              description="We’ll send a short survey asking you to rate the nutritional benefits as well as the taste of the products."
-              color="#f69382"
-            />
-          </Section>
+        <SectionContainer 
+          name="header-banner" 
+          width="full" 
+          height="450px" 
+          padding="0" 
+          backgroundImage="/static/img/header-banner-full.jpg"
+        />
+       
+        <SectionContainer width="boxed" padding="0">
+          <Section
+          name="campaign-badge-section"
+          hasImage="true"
+          imageSrc="/static/img/8406-HNM-Campaign-Badge.png"
+          width="100"
+          ></Section>
         </SectionContainer>
 
-        <SectionContainer name="more-info-section" width="boxed">
-          <Spacer />
+        <SectionContainer name="more-info-section" width="boxed" padding="25">
           <Section
             hasImage="true"
-            imageSrc="/static/img/5268_NECNIB_Hero-Shot_2.png"
-            title="What’s in the box?"
-            description="Every season we’ll curate a box of great-tasting, better-for-you snacks and beverages for you to sample along with product information detailing the ingredients and dietary information. We source products that fit a range of dietary preferences from all natural to gluten free and protein rich."
+            imageSrc="/static/img/CoolerTitle.png"
             width="49"
             padding="25px"
           ></Section>
           <Section
             hasImage="true"
-            imageSrc="/static/img/092920_NN_Box-Photos_V1-temp.png"
-            title="Why participate?"
-            description="Your customers and clients are hungry for product recommendations to help them achieve their dietary goals and make grocery shopping easier. Our mission is to help you get to know the better-for-you products available in your retailer by sampling healthy products."
+            imageSrc="/static/img/YETI-hero-shot.png"
             width="49"
             padding="25px"
           ></Section>
-
-          <Spacer />
         </SectionContainer>
 
-        <SectionContainer name="form-section" width="boxed">
-          <Section width="100"
-            title="Join Now"
-          >
-          </Section>
+        <SectionContainer name="rules-section" width="boxed" padding="25">
+          <Section
+            description="Stock up on these hiking snacks to fuel your next adventure and enter to win a YETI Roadie Cooler, valued at $199! Enter your name and email address above before the contest ends on June 29th!"
+            width="100"
+            padding="25px"
+            margin="0px auto"
+          ></Section>
         </SectionContainer>
+
+        <SectionContainer name="brand-section" width="boxed" padding="25">
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/HNM-Product-Hero-Shot-2.png"
+            width="100"
+            padding="25px"
+          ></Section>
+        </SectionContainer>
+
+        <SectionContainer name="brand-logo-section" width="boxed" padding="25">
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/bottlingCoLogo-2.png"
+            width="19"
+            padding="25px"
+          ></Section>
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/MCT-Logo.png"
+            width="19"
+            padding="25px"
+          ></Section>
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/KiTu_Super-Coffee-Logo_K-1.png"
+            width="19"
+            padding="25px"
+          ></Section>
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/NOKA-Logo.png"
+            width="19"
+            padding="25px"
+          ></Section>
+          <Section
+            hasImage="true"
+            imageSrc="/static/img/Mush-logo-black.png"
+            width="19"
+            padding="25px"
+          ></Section>
+        </SectionContainer>
+
+        <SectionContainer name="terms-section" width="boxed">
+          <Section
+            description="To enter, you must be over the age of 18, and limit of five entries per person. Upon entering this promotion, you agree to the official rules. To be eligible for entry you acknowledge this promotion is in no way sponsored, endorsed or administered by, or associated with, YETI, Facebook, or Instagram. Winner will be announced on or after June 29th, 2021. To qualify for additional entries, share this link and tag three people who also meet eligibility requirements. By entering the contest, you agree to sign up for Huckleberry’s Natural Market E-blast."
+            width="100"
+            padding="25px"
+            margin="0px auto"
+          ></Section>
+        </SectionContainer>
+
       </div>
     </Layout>
   );

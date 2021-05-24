@@ -65,7 +65,6 @@ typings/
 
 public/admin
 public/page-data
-
 public/manifest.webmanifest
 public/render-page.js
 public/render-page.js.map
