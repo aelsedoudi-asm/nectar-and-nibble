@@ -12,7 +12,7 @@ export default function MainLayout({ children }) {
         <meta name="description" content={config.siteDescription} />
         <html lang="en" />
         <link rel="stylesheet" href="https://use.typekit.net/ktp5bhz.css"></link>
-        <link rel="icon" href="../favicon.ico" sizes="16x16"></link>
+        <link rel="icon" href="/favicon.ico" sizes="16x16"></link>
       </Helmet>
       <MainNav config={config} />
       {children}
