@@ -9,7 +9,7 @@ const config = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Huckleberry's Natural Market RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "G-MT926N6DEZ", // GA tracking ID.
+  googleAnalyticsID: "G-QBG6MJWY58", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.

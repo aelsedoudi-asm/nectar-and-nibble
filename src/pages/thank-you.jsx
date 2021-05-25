@@ -40,7 +40,7 @@ function ThankYou() {
           <Section
             description="Want to increase your chances of winning? Head to our social media to find out more information!"
             width="100"
-            padding="0px"
+            padding="25px"
             margin="0px auto"
           ></Section>
         </SectionContainer>
@@ -70,7 +70,7 @@ function ThankYou() {
           <Section
             description="Psst: You can gain a bonus entry by taking a picture of yourself at Huckleberry’s!"
             width="100"
-            padding="0px"
+            padding="25px"
             margin="0px auto"
           ></Section>
         </SectionContainer>
