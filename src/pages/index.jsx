@@ -81,7 +81,7 @@ function HomePage() {
           ></Section>
           <Section
             hasImage="true"
-            imageSrc="/static/img/MCT-Logo.png"
+            imageSrc="/static/img/NuSkool_MCTCollagenBar_Logo.png"
             isLink="true"
             linkSrc="https://nuskoolsnacks.com/"
             linkTarget="_blank"
