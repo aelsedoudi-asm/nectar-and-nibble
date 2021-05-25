@@ -27,12 +27,14 @@ function HomePage() {
           hasImage="true"
           imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
           width="100"
+          padding="25px"
           >
           </Section>
         </SectionContainer>
 
         <SectionContainer name="more-info-section" width="boxed" padding="25">
           <Section
+            name="sweepstakes-section"
             hasImage="true"
             imageSrc="/static/img/CoolerTitle.png"
             width="49"
@@ -41,6 +43,7 @@ function HomePage() {
           <div id="activeCampaign-form" class="_form_8"></div>
           </Section>
           <Section
+            name="sweepstakes-section"
             hasImage="true"
             imageSrc="/static/img/YETI-hero-shot.png"
             width="49"

@@ -23,6 +23,7 @@ function ThankYou() {
           hasImage="true"
           imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
           width="100"
+          padding="25px"
           ></Section>
         </SectionContainer>
 

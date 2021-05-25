@@ -83,9 +83,13 @@ h5{
   letter-spacing: 4px;
 }
 
+#activeCampaign-form{
+  margin: 0px auto !important;
+}
+
 #activeCampaign-form ._inline-form{
   background: none !important;
-  margin: 0px 0px !important;
+  margin: 0px auto !important;
   padding: 0px !important;
   font-family: LibreBaskerville, Roboto, sans-serif !important;
 }
@@ -117,4 +121,26 @@ h5{
 
 .terms-section{
   font-size:14px;
+}
+
+@media screen and (min-width: 780px) and (max-width:1023px) {
+
+}
+
+@media screen and (max-width: 780px) {
+  .section.sweepstakes-section {
+    width: 100% !important;
+    display: block;
+  }
+  .section.sweepstakes-section .section-internal{
+    display:block;
+    width:100%
+  }
+  #activeCampaign-form ._inline-form input[type="text"]{
+    font-size:27px;
+  }
+  .brand-logo-section .section {
+    display: block;
+    width: 100% !important;
+  }
 }
