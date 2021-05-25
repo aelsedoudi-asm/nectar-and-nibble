@@ -45,7 +45,7 @@ function HomePage() {
           <Section
             name="sweepstakes-section"
             hasImage="true"
-            imageSrc="/static/img/YETI-hero-shot.png"
+            imageSrc="/static/img/YETI-hero-shot-8x8.png"
             width="49"
             padding="25px"
           ></Section>

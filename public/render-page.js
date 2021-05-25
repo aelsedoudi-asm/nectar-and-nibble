@@ -1985,7 +1985,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-gtag/gatsby-ssr */ "./node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "trackingIds": ["G-MT926N6DEZ"],
+    "trackingIds": ["G-QBG6MJWY58"],
     "gtagConfig": {
       "optimize_id": "OPT_CONTAINER_ID",
       "anonymize_ip": true,
