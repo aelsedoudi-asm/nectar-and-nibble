@@ -50,7 +50,7 @@ function ThankYou() {
             hasImage="true"
             imageSrc="/static/img/FacebookLogo.png"
             isLink="true"
-            linkSrc="http://bit.ly/huckshike"
+            linkSrc="https://www.facebook.com/HuckleberrysNaturalMarket/"
             linkTarget="_blank"
             width="49"
             padding="25px"
@@ -68,7 +68,7 @@ function ThankYou() {
 
         <SectionContainer name="rules-section" width="boxed" padding="0">
           <Section
-            description="Psst: You can gain a bonus entry by taking a picture of yourself at Huckleberry’s!"
+            description="Psst.... Take a picture of you in store with any of these participating brands and tag @huckleberrysnaturalmarket,  @cforcewater,  @drinksupercoffee,  @nuskoolsnacks,  @mush, @nokaorganics"
             width="100"
             padding="25px"
             margin="0px auto"
