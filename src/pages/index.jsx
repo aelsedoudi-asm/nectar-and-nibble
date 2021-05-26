@@ -11,8 +11,8 @@ function HomePage() {
   return (
     <Layout>
       <div className="home-container">
-        <Helmet title={`${config.siteTitle}`} >
-          <script src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script>
+        <Helmet title={`${config.siteTitle}`}>
+        <script src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script> 
         </Helmet>
         <SectionContainer 
           name="header-banner" 
@@ -40,7 +40,7 @@ function HomePage() {
             width="49"
             padding="25px"
           >
-          <div id="activeCampaign-form" class="_form_8"></div>
+          <div id="activeCampaign-form" className="_form_8"></div>
           </Section>
           <Section
             name="sweepstakes-section"
