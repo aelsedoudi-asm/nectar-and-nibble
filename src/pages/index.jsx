@@ -1,9 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ServiceStepBubbles from "../components/ServiceStepsBubbles/ServiceStepBubbles";
 import Section from "../components/Section/Section";
 import SectionContainer from "../components/SectionContainer/SectionContainer";
-import Button from "../components/Button/Button";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
 
@@ -11,8 +9,13 @@ function HomePage() {
   return (
     <Layout>
       <div className="home-container">
-        <Helmet title={`${config.siteTitle}`}>
-        <script src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script> 
+        <Helmet title={`${config.siteTitle}`} >
+          <script
+            key="activeCampaign"
+            src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8"
+            type="text/javascript"
+            charSet="utf-8"
+          />
         </Helmet>
         <SectionContainer 
           name="header-banner" 
@@ -40,7 +43,7 @@ function HomePage() {
             width="49"
             padding="25px"
           >
-          <div id="activeCampaign-form" className="_form_8"></div>
+          <div id="activeCampaign-form" className="_form_8"></div>      
           </Section>
           <Section
             name="sweepstakes-section"
