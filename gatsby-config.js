@@ -22,6 +22,7 @@ module.exports = {
     },
   },
   plugins: [
+    "gatsby-plugin-htaccess",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
