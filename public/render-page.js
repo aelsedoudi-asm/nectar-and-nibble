@@ -4098,9 +4098,6 @@ function HTML(props) {
           vgo('setTrackByDefault', true);
 
           vgo('process');
-
-          var foo = 'bar';
-          console.log(foo);
           `
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("body", props.bodyAttributes, props.preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {

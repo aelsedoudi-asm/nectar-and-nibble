@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <Layout>
       <div className="home-container">
-        <Helmet title={`${config.siteTitle}`} >
+        <Helmet title={`${config.siteTitle}`}>
           <script
             key="activeCampaign"
             src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8"
@@ -17,22 +17,21 @@ function HomePage() {
             charSet="utf-8"
           />
         </Helmet>
-        <SectionContainer 
-          name="header-banner" 
-          width="full" 
-          height="300px" 
-          padding="0" 
+        <SectionContainer
+          name="header-banner"
+          width="full"
+          height="300px"
+          padding="0"
           backgroundImage="/static/img/header-banner-full.jpg"
-        />   
+        />
         <SectionContainer width="boxed" padding="0">
           <Section
-          name="campaign-badge-section"
-          hasImage="true"
-          imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
-          width="100"
-          padding="0"
-          >
-          </Section>
+            name="campaign-badge-section"
+            hasImage="true"
+            imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
+            width="100"
+            padding="0"
+          ></Section>
         </SectionContainer>
 
         <SectionContainer name="more-info-section" width="boxed" padding="25">
@@ -43,7 +42,7 @@ function HomePage() {
             width="49"
             padding="25px"
           >
-          <div id="activeCampaign-form" className="_form_8"></div>      
+            <div id="activeCampaign-form" className="_form_8"></div>
           </Section>
           <Section
             name="sweepstakes-section"
@@ -128,7 +127,6 @@ function HomePage() {
             margin="0px auto"
           ></Section>
         </SectionContainer>
-
       </div>
     </Layout>
   );

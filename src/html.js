@@ -14,9 +14,6 @@ export default function HTML(props) {
           vgo('setTrackByDefault', true);
 
           vgo('process');
-
-          var foo = 'bar';
-          console.log(foo);
           `,
         }}
       />
