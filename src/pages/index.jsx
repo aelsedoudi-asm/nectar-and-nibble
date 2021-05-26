@@ -17,7 +17,7 @@ function HomePage() {
         <SectionContainer 
           name="header-banner" 
           width="full" 
-          height="400px" 
+          height="300px" 
           padding="0" 
           backgroundImage="/static/img/header-banner-full.jpg"
         />   
@@ -27,7 +27,7 @@ function HomePage() {
           hasImage="true"
           imageSrc="/static/img/8406-HNM-Campaign-Badge-2x.png"
           width="100"
-          padding="25px"
+          padding="0"
           >
           </Section>
         </SectionContainer>
