@@ -10,6 +10,7 @@ export default function MainLayout({ children }) {
     <div className="layout-container">
       <Helmet>
         <meta name="description" content={config.siteDescription} />
+        <meta http-equiv="Cache-control" content="public" max-age="0" must-revalidate></meta>
         <html lang="en" />
         <link rel="stylesheet" href="https://use.typekit.net/ktp5bhz.css"></link>
         <link rel="icon" href="/favicon.ico" sizes="16x16"></link>
