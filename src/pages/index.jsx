@@ -12,7 +12,7 @@ function HomePage() {
         <Helmet title={`${config.siteTitle}`}>
           <script
             key="activeCampaign"
-            src="https://alliancesalesinc.activehosted.com/f/embed.php?id=8"
+            src="/static/js/embed.php?id=8"
             type="text/javascript"
             charSet="utf-8"
             async="true"
